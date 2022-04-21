@@ -1,0 +1,352 @@
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+[gd_scene load_steps=20 format=2]
+=======
+[gd_scene load_steps=31 format=2]
+>>>>>>> Stashed changes
+
+[ext_resource path="res://Assets/roadTexture_67.png" type="Texture" id=1]
+[ext_resource path="res://Assets/roadTexture_58.png" type="Texture" id=2]
+[ext_resource path="res://Camera.gd" type="Script" id=3]
+[ext_resource path="res://StateMachine/Player_Container.gd" type="Script" id=4]
+[ext_resource path="res://Assets/roadTexture_61.png" type="Texture" id=5]
+[ext_resource path="res://Assets/roadTexture_85.png" type="Texture" id=6]
+[ext_resource path="res://Assets/tree_thin_NE.png" type="Texture" id=7]
+=======
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Camera.gd" type="Script" id=3]
+[ext_resource path="res://StateMachine/Player_Container.gd" type="Script" id=4]
+>>>>>>> Stashed changes
+[ext_resource path="res://Assets/door.png" type="Texture" id=8]
+[ext_resource path="res://Enemies/Enemy2.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Enemies.gd" type="Script" id=10]
+[ext_resource path="res://Levels/Door.gd" type="Script" id=12]
+[ext_resource path="res://Coins/Coin.tscn" type="PackedScene" id=13]
+[ext_resource path="res://Coins/Coins.gd" type="Script" id=14]
+[ext_resource path="res://UI/UI.tscn" type="PackedScene" id=15]
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+[ext_resource path="res://Assets/roadTexture_73.png" type="Texture" id=16]
+=======
+>>>>>>> Stashed changes
+=======
+[ext_resource path="res://Assets/4.png" type="Texture" id=16]
+[ext_resource path="res://Assets/5.png" type="Texture" id=17]
+[ext_resource path="res://Assets/Sky image.jpeg" type="Texture" id=18]
+[ext_resource path="res://HUD/HUD.gd" type="Script" id=19]
+[ext_resource path="res://Assets/3.png" type="Texture" id=20]
+[ext_resource path="res://Assets/7.png" type="Texture" id=21]
+[ext_resource path="res://Assets/6.png" type="Texture" id=22]
+[ext_resource path="res://Assets/tree_thin_NE.png" type="Texture" id=23]
+>>>>>>> Stashed changes
+
+[sub_resource type="NavigationPolygon" id=10]
+vertices = PoolVector2Array( 2680, 576, 2488, 576, 1856, 504, 1848, 448, 1072, 760, 1072, 696, 2488, 624, 2680, 640, 2352, 888, 1928, 888, 2944, -176, 2936, 1336, 2744, 1216, 2352, 960, 632, 896, 632, 816, 832, 752, 1928, 952, 1920, 1216, 1848, 1216, 1528, 1144, 64, -192, 1856, 1336, 1536, 1312, 2560, 1216, 2560, 1280, 2488, 1272, 912, 1200, 840, 1192, 848, 1144, 2488, 1336, 2088, 1328, 2088, 1304, 2088, 1264, 2688, 1328, 2688, 1272, 2744, 1272, 1400, 1144, 1400, 1264, 1344, 1264, 1344, 1328, 976, 1328, 976, 1264, 912, 1264, 704, 1096, 696, 1336, 64, 1328, 200, 888, 1920, 1256, 1344, 504, 832, 704, 768, 1128, 768, 1096, 1344, 448, 200, 832 )
+polygons = [ PoolIntArray( 0, 1, 2, 3 ), PoolIntArray( 4, 5, 6, 7, 8, 9 ), PoolIntArray( 10, 11, 7, 0 ), PoolIntArray( 7, 11, 12, 13, 8 ), PoolIntArray( 14, 15, 16, 4, 9, 17, 18, 19, 20 ), PoolIntArray( 21, 10, 0, 3 ), PoolIntArray( 19, 22, 23, 20 ), PoolIntArray( 24, 25, 26, 13 ), PoolIntArray( 27, 28, 29 ), PoolIntArray( 26, 30, 31, 32 ), PoolIntArray( 26, 32, 33, 13 ), PoolIntArray( 34, 35, 36, 11 ), PoolIntArray( 37, 38, 39, 14 ), PoolIntArray( 39, 40, 41, 42 ), PoolIntArray( 42, 43, 27 ), PoolIntArray( 14, 44, 45, 46, 47 ), PoolIntArray( 33, 48, 18, 17, 13 ), PoolIntArray( 49, 2, 1, 6, 5, 50 ), PoolIntArray( 29, 51, 52 ), PoolIntArray( 21, 3, 53 ), PoolIntArray( 50, 16, 15, 54 ), PoolIntArray( 11, 36, 12 ), PoolIntArray( 13, 12, 24 ), PoolIntArray( 14, 20, 37 ), PoolIntArray( 14, 39, 42, 27 ), PoolIntArray( 14, 27, 29 ), PoolIntArray( 14, 29, 52 ), PoolIntArray( 14, 52, 44 ), PoolIntArray( 47, 46, 21, 54 ), PoolIntArray( 54, 21, 53, 49, 50 ) ]
+outlines = [ PoolVector2Array( 64, -192, 64, 1328, 696, 1336, 704, 1096, 768, 1096, 768, 1128, 848, 1144, 840, 1192, 912, 1200, 912, 1264, 976, 1264, 976, 1328, 1344, 1328, 1344, 1264, 1400, 1264, 1400, 1144, 1528, 1144, 1536, 1312, 1856, 1336, 1848, 1216, 1920, 1216, 1920, 1256, 2088, 1264, 2088, 1304, 2088, 1328, 2488, 1336, 2488, 1272, 2560, 1280, 2560, 1216, 2744, 1216, 2744, 1272, 2688, 1272, 2688, 1328, 2936, 1336, 2944, -176 ), PoolVector2Array( 200, 832, 200, 888, 632, 896, 632, 816 ), PoolVector2Array( 832, 704, 832, 752, 1072, 760, 1072, 696 ), PoolVector2Array( 1344, 448, 1344, 504, 1856, 504, 1848, 448 ), PoolVector2Array( 1928, 888, 1928, 952, 2352, 960, 2352, 888 ), PoolVector2Array( 2488, 576, 2488, 624, 2680, 640, 2680, 576 ) ]
+
+<<<<<<< Updated upstream
+[sub_resource type="ConvexPolygonShape2D" id=11]
+points = PoolVector2Array( 0, 0, 64, 0, 64, 64, 0, 64 )
+
+[sub_resource type="TileSet" id=12]
+0/name = "roadTexture_58.png 0"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 64, 64 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shape_offset = Vector2( 0, 0 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+0/shape_one_way = false
+0/shape_one_way_margin = 0.0
+0/shapes = [  ]
+0/z_index = 0
+1/name = "roadTexture_61.png 1"
+1/texture = ExtResource( 5 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 64, 64 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shape_offset = Vector2( 0, 0 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+1/shape_one_way = false
+1/shape_one_way_margin = 0.0
+1/shapes = [  ]
+1/z_index = 0
+2/name = "roadTexture_67.png 2"
+2/texture = ExtResource( 1 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 64, 64 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "roadTexture_73.png 3"
+3/texture = ExtResource( 16 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 64, 64 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shape_offset = Vector2( 0, 0 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+3/shape_one_way = false
+3/shape_one_way_margin = 0.0
+3/shapes = [  ]
+3/z_index = 0
+4/name = "roadTexture_85.png 4"
+4/texture = ExtResource( 6 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 64, 64 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shape_offset = Vector2( 0, 0 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+4/shape_one_way = false
+4/shape_one_way_margin = 0.0
+4/shapes = [  ]
+4/z_index = 0
+5/name = "roadTexture_85.png 5"
+5/texture = ExtResource( 6 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 64, 64 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shape_offset = Vector2( 0, 0 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+5/shape_one_way = false
+5/shape_one_way_margin = 0.0
+5/shapes = [  ]
+5/z_index = 0
+6/name = "tree_thin_fall_NE.png 6"
+6/texture = ExtResource( 11 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 188, 188, 128, 128 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape = SubResource( 11 )
+6/shape_one_way = false
+6/shape_one_way_margin = 1.0
+6/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 11 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
+6/z_index = 0
+7/name = "tree_thin_NE.png 7"
+7/texture = ExtResource( 7 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 188, 188, 128, 128 )
+7/tile_mode = 0
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shape_offset = Vector2( 0, 0 )
+7/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+7/shape_one_way = false
+7/shape_one_way_margin = 0.0
+7/shapes = [  ]
+7/z_index = 0
+
+=======
+>>>>>>> Stashed changes
+[node name="Game" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+offset = Vector2( 0, -220 )
+transform = Transform2D( 1, 0, 0, 1, 0, -220 )
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.1, 0.1 )
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 24, 476 )
+scale = Vector2( 0.9375, 1.01481 )
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.2, 0.2 )
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2( -32, 492 )
+scale = Vector2( 0.9625, 1.05926 )
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.3, 0.3 )
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2( -16, 516 )
+scale = Vector2( 0.9375, 1.03704 )
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.4, 0.4 )
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2( 0, 508 )
+scale = Vector2( 0.933333, 0.992593 )
+centered = false
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.5, 0.5 )
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer5"]
+centered = false
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.7, 0.7 )
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer6"]
+position = Vector2( -48, 532 )
+scale = Vector2( 0.954167, 0.992593 )
+centered = false
+
+[node name="ParallaxLayer7" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 1800, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer7"]
+centered = false
+
+[node name="Navigation2D" type="Navigation2D" parent="."]
+
+[node name="NavigationPolygonInstance" type="NavigationPolygonInstance" parent="Navigation2D"]
+navpoly = SubResource( 10 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Player_Container" type="Node2D" parent="."]
+script = ExtResource( 4 )
+
+[node name="Camera" type="Camera2D" parent="."]
+current = true
+limit_left = 0
+limit_top = 0
+limit_right = 4352
+limit_bottom = 1500
+limit_smoothed = true
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = true
+drag_margin_left = 0.1
+drag_margin_top = 0.1
+drag_margin_right = 0.1
+drag_margin_bottom = 0.1
+script = ExtResource( 3 )
+
+[node name="Enemies" type="Node2D" parent="."]
+script = ExtResource( 10 )
+
+[node name="Enemy2" parent="Enemies" instance=ExtResource( 9 )]
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource( 9 )]
+position = Vector2( 1526, 1081 )
+constraint_left = Vector2( 1569, 1278 )
+constraint_right = Vector2( 1803, 1276 )
+
+[node name="Enemy4" parent="Enemies" instance=ExtResource( 9 )]
+position = Vector2( 2715, 513 )
+constraint_left = Vector2( 2715, 513 )
+constraint_right = Vector2( 2689, 515 )
+
+[node name="Door" type="Area2D" parent="."]
+script = ExtResource( 12 )
+
+[node name="Sprite" type="Sprite" parent="Door"]
+position = Vector2( 3461, 1746 )
+texture = ExtResource( 8 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Door"]
+position = Vector2( 2911, 1310 )
+polygon = PoolVector2Array( 24, -27.2, 24, -25.8, 31, -18.8, 31, -16.5, 32, -14.9, 32, 32, -32, 32, -32, -16, -22, -29, -19.5, -29, -14.2, -32, 14.4, -32 )
+
+[node name="Coins" type="Node2D" parent="."]
+position = Vector2( 1052, 669 )
+script = ExtResource( 14 )
+
+[node name="Coin" parent="Coins" instance=ExtResource( 13 )]
+
+[node name="Coin2" parent="Coins" instance=ExtResource( 13 )]
+position = Vector2( 906, 184 )
+
+[node name="Coin3" parent="Coins" instance=ExtResource( 13 )]
+position = Vector2( 756, -268 )
+
+[node name="Coin4" parent="Coins" instance=ExtResource( 13 )]
+position = Vector2( 1461, -133 )
+
+[node name="UI" parent="." instance=ExtResource( 15 )]
+
+[node name="Background" type="StaticBody2D" parent="."]
+collision_layer = 270
+collision_mask = 269
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background"]
+polygon = PoolVector2Array( 0, 0, 0, 1408, 3000, 1408, 3008, 0, 2944, 0, 2944, 1344, 64, 1344, 64, 0 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Ground" type="TileMap" parent="."]
+<<<<<<< Updated upstream
+tile_set = SubResource( 12 )
+format = 1
+tile_data = PoolIntArray( 196608, 3, 0, 196665, 3, 0, 262144, 3, 0, 262201, 3, 0, 327680, 3, 0, 327737, 3, 0, 393216, 3, 0, 393273, 3, 0, 458752, 3, 0, 458773, 1, 0, 458774, 1, 0, 458775, 1, 0, 458776, 1, 0, 458777, 1, 0, 458778, 1, 0, 458779, 1, 0, 458780, 1, 0, 458809, 3, 0, 524288, 3, 0, 524345, 3, 0, 589824, 3, 0, 589863, 1, 0, 589864, 1, 0, 589865, 1, 0, 589881, 3, 0, 655360, 3, 0, 655417, 3, 0, 720896, 3, 0, 720909, 1, 0, 720910, 1, 0, 720911, 1, 0, 720912, 1, 0, 720953, 3, 0, 786432, 3, 0, 786489, 3, 0, 851968, 3, 0, 851971, 1, 0, 851972, 1, 0, 851973, 1, 0, 851974, 1, 0, 851975, 1, 0, 851976, 1, 0, 851977, 1, 0, 852025, 3, 0, 917504, 3, 0, 917534, 1, 0, 917535, 1, 0, 917536, 1, 0, 917537, 1, 0, 917538, 1, 0, 917539, 1, 0, 917540, 1, 0, 917561, 3, 0, 983040, 3, 0, 983097, 3, 0, 1048576, 3, 0, 1048633, 3, 0, 1114112, 3, 0, 1114123, 4, 0, 1114169, 3, 0, 1179648, 3, 0, 1179659, 4, 0, 1179660, 4, 0, 1179670, 4, 0, 1179671, 4, 0, 1179705, 3, 0, 1245184, 3, 0, 1245195, 4, 0, 1245196, 4, 0, 1245197, 4, 0, 1245206, 4, 0, 1245207, 4, 0, 1245213, 4, 0, 1245224, 0, 0, 1245225, 1, 0, 1245226, 1, 0, 1245241, 3, 0, 1310720, 3, 0, 1310731, 4, 0, 1310732, 4, 0, 1310733, 4, 0, 1310734, 4, 0, 1310741, 4, 0, 1310742, 4, 0, 1310743, 4, 0, 1310749, 4, 0, 1310750, 4, 0, 1310751, 4, 0, 1310752, 4, 0, 1310759, 1, 0, 1310760, 0, 0, 1310761, 1, 0, 1310777, 3, 0, 1376256, 0, 0, 1376257, 1, 0, 1376258, 1, 0, 1376259, 1, 0, 1376260, 1, 0, 1376261, 1, 0, 1376262, 1, 0, 1376263, 1, 0, 1376264, 1, 0, 1376265, 1, 0, 1376266, 1, 0, 1376267, 1, 0, 1376268, 1, 0, 1376269, 1, 0, 1376270, 1, 0, 1376271, 1, 0, 1376272, 1, 0, 1376273, 1, 0, 1376274, 1, 0, 1376275, 1, 0, 1376276, 1, 0, 1376277, 1, 0, 1376278, 1, 0, 1376279, 1, 0, 1376280, 1, 0, 1376281, 1, 0, 1376282, 1, 0, 1376283, 1, 0, 1376284, 1, 0, 1376285, 1, 0, 1376286, 1, 0, 1376287, 1, 0, 1376288, 1, 0, 1376289, 1, 0, 1376290, 1, 0, 1376291, 1, 0, 1376292, 1, 0, 1376293, 1, 0, 1376294, 1, 0, 1376295, 1, 0, 1376296, 1, 0, 1376297, 1, 0, 1376298, 1, 0, 1376299, 1, 0, 1376300, 1, 0, 1376301, 1, 0, 1376302, 1, 0, 1376303, 1, 0, 1376304, 1, 0, 1376305, 1, 0, 1376306, 1, 0, 1376307, 1, 0, 1376308, 1, 0, 1376309, 1, 0, 1376310, 1, 0, 1376311, 1, 0, 1376312, 1, 0, 1376313, 3, 0 )
+
+[node name="BackGround" type="TileMap" parent="."]
+format = 1
+=======
+format = 1
+tile_data = PoolIntArray( 196608, 3, 0, 196665, 3, 0, 262144, 3, 0, 262201, 3, 0, 327680, 3, 0, 327737, 3, 0, 393216, 3, 0, 393273, 3, 0, 458752, 3, 0, 458773, 1, 0, 458774, 1, 0, 458775, 1, 0, 458776, 1, 0, 458777, 1, 0, 458778, 1, 0, 458779, 1, 0, 458780, 1, 0, 458809, 3, 0, 524288, 3, 0, 524345, 3, 0, 589824, 3, 0, 589863, 1, 0, 589864, 1, 0, 589865, 1, 0, 589881, 3, 0, 655360, 3, 0, 655417, 3, 0, 720896, 3, 0, 720909, 1, 0, 720910, 1, 0, 720911, 1, 0, 720912, 1, 0, 720953, 3, 0, 786432, 3, 0, 786489, 3, 0, 851968, 3, 0, 851971, 1, 0, 851972, 1, 0, 851973, 1, 0, 851974, 1, 0, 851975, 1, 0, 851976, 1, 0, 851977, 1, 0, 852025, 3, 0, 917504, 3, 0, 917534, 1, 0, 917535, 1, 0, 917536, 1, 0, 917537, 1, 0, 917538, 1, 0, 917539, 1, 0, 917540, 1, 0, 917561, 3, 0, 983040, 3, 0, 983097, 3, 0, 1048576, 3, 0, 1048633, 3, 0, 1114112, 3, 0, 1114123, 4, 0, 1114169, 3, 0, 1179648, 3, 0, 1179659, 4, 0, 1179660, 4, 0, 1179670, 4, 0, 1179671, 4, 0, 1179705, 3, 0, 1245184, 3, 0, 1245195, 4, 0, 1245196, 4, 0, 1245197, 4, 0, 1245206, 4, 0, 1245207, 4, 0, 1245213, 4, 0, 1245224, 0, 0, 1245225, 1, 0, 1245226, 1, 0, 1245241, 3, 0, 1310720, 3, 0, 1310731, 4, 0, 1310732, 4, 0, 1310733, 4, 0, 1310734, 4, 0, 1310741, 4, 0, 1310742, 4, 0, 1310743, 4, 0, 1310749, 4, 0, 1310750, 4, 0, 1310751, 4, 0, 1310752, 4, 0, 1310759, 1, 0, 1310760, 0, 0, 1310761, 1, 0, 1310777, 3, 0, 1376256, 0, 0, 1376257, 1, 0, 1376258, 1, 0, 1376259, 1, 0, 1376260, 1, 0, 1376261, 1, 0, 1376262, 1, 0, 1376263, 1, 0, 1376264, 1, 0, 1376265, 1, 0, 1376266, 1, 0, 1376267, 1, 0, 1376268, 1, 0, 1376269, 1, 0, 1376270, 1, 0, 1376271, 1, 0, 1376272, 1, 0, 1376273, 1, 0, 1376274, 1, 0, 1376275, 1, 0, 1376276, 1, 0, 1376277, 1, 0, 1376278, 1, 0, 1376279, 1, 0, 1376280, 1, 0, 1376281, 1, 0, 1376282, 1, 0, 1376283, 1, 0, 1376284, 1, 0, 1376285, 1, 0, 1376286, 1, 0, 1376287, 1, 0, 1376288, 1, 0, 1376289, 1, 0, 1376290, 1, 0, 1376291, 1, 0, 1376292, 1, 0, 1376293, 1, 0, 1376294, 1, 0, 1376295, 1, 0, 1376296, 1, 0, 1376297, 1, 0, 1376298, 1, 0, 1376299, 1, 0, 1376300, 1, 0, 1376301, 1, 0, 1376302, 1, 0, 1376303, 1, 0, 1376304, 1, 0, 1376305, 1, 0, 1376306, 1, 0, 1376307, 1, 0, 1376308, 1, 0, 1376309, 1, 0, 1376310, 1, 0, 1376311, 1, 0, 1376312, 1, 0, 1376313, 3, 0 )
+
+[node name="BackGround" type="TileMap" parent="."]
+format = 1
+>>>>>>> Stashed changes
+
+[node name="HUD" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 19 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Time" type="Label" parent="HUD"]
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Time:"
+
+[node name="Timer" type="Timer" parent="HUD"]
+
+[connection signal="body_entered" from="Door" to="Door" method="_on_Door_body_entered"]
+[connection signal="timeout" from="HUD/Timer" to="HUD" method="_on_Timer_timeout"]
